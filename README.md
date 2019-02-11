@@ -1,10 +1,14 @@
 ## reproduction steps
 
   1.  ```
+      cd devtools
+      ```
+
+  2.  ```
       yarn
       ````
 
 
-  2. ```
+  3. ```
      yarn test
       ```

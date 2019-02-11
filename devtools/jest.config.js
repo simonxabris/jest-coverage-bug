@@ -1,7 +1,5 @@
 const path = require('path');
 
-console.log('collecting coverage from: ', path.join(__dirname, '..', 'source', 'common', '**', '*.{js,vue}'));
-
 module.exports = {
 	moduleFileExtensions: ['js', 'json', 'vue'],
 	transform: {

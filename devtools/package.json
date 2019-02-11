@@ -1,5 +1,5 @@
 {
-  "name": "jest coverage error",
+  "name": "jestcoveragerror",
   "version": "1.0.0",
   "description": "reproduction repo for jest 'Cannot read property 'coverageData' of null' error ",
   "main": "index.js",
