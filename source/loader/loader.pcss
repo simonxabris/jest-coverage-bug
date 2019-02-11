@@ -1,0 +1,51 @@
+.loader {
+	background: rgba(255,255,255,0.8);
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1100;
+}
+
+.loader--visible {
+	display: block;
+}
+
+.loader__anim {
+	animation: loaderspin 3s linear infinite;
+	height: 100px;
+	left: calc(50% - 50px);
+	position: absolute;
+	top: calc(50% - 50px);
+	transform: translate(-50%, -50%);
+	width: 100px;
+}
+
+@keyframes loaderspin {
+	0% {
+		opacity: 0.8;
+    transform: rotate(-360deg);
+  }
+
+	25% {
+		opacity: 1;
+    transform: rotate(-270deg);
+  }
+
+  50% {
+		opacity: 0.8;
+    transform: rotate(-180deg);
+  }
+
+	75% {
+		opacity: 1;
+    transform: rotate(-90deg);
+  }
+
+  100% {
+		opacity: 0.8;
+    transform: rotate(0);
+  }
+}
